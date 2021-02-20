@@ -1,1 +1,1 @@
-# MERN user authentication boilerplate
+# User authentication boilerplate
