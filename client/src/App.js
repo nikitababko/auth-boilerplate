@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import { Dashboard, Preferences } from './components';
+import { Dashboard, Preferences, Login } from './components';
 
 import './App.css';
 
 const App = () => {
+  const [token, setToken] = useState();
+
+  console.log(token);
+
+  if (!token) {
+    return <Login setToken={setToken} />;
+  }
+
   return (
     <div className="wrapper">
       <h1>Auth boilerplate</h1>
