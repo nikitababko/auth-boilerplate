@@ -1,4 +1,4 @@
-# User authentication boilerplate
+# User authentication boilerplate (Token is stored on cookies)
 
 ## Quick start
 
