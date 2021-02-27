@@ -1,4 +1,4 @@
-# User authentication boilerplate (Token is stored on cookies)
+# User authentication boilerplate (Token is stored on localStorage or sessionStorage)
 
 ## Quick start
 
